@@ -1,0 +1,367 @@
+.bubble {
+  border-radius: 100% !important;
+  background: rgba(255,255,255,0.5) !important;
+  position: absolute;
+  transition: 1s;
+}
+
+#firstSection{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/digital-advertising.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+#navMenu{
+	width: 100%;
+	height: 9%;
+	padding: 20px 30px;
+	position: fixed;
+	top: 0;
+	z-index: 3;
+	transition:0.6S;
+}
+
+.Fix{
+	background-color: rgba(32,32,32,0.8);
+}
+
+#navMenu img{
+	z-index: 2;
+	display: inline-block;
+}
+
+#navMenu ul{
+	width: 80%;
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    left: 17%;
+}
+
+.item-menu{
+	display: inline-block;
+	margin-left: 7%;
+	transition: 500ms;
+}
+
+.item-menu a{
+	text-decoration: none;
+	color: #EEE;
+}
+
+
+.blackDiv{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	display: block;
+	opacity: .5;
+	z-index: 1;
+}
+
+#slogonDiv{
+	width: 80%;
+	height: 69%;
+	position: relative;
+	top: 10%;
+	left: 10%;
+	z-index: 2;
+	text-align: center;
+	padding-top: 5%;
+	color: #fff;
+}
+
+#slogonDiv p{
+	font-size: 1.5em;
+}
+
+#calculate{
+    margin-top: 5%;
+    background-color: red;
+    border: none;
+    color: #fff;
+    height: 13%;
+    width: 34%;
+    border-radius: 39px;
+    box-shadow: rgba(194, 39, 19, 0.33) 0px 2px 5px 5px;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+}
+
+#contactPanel{
+	position: relative;
+	width: 100%;
+	margin-top: 4%;
+	z-index: 2;
+}
+
+
+.item-contact{
+	display: inline-block;
+	color: #fff;
+	padding-left: 17%;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: Bebas;
+    src: url("../fonts/Bebas/TTF's/BebasNeue Regular.otf");
+}
+body{
+	height: 500vh;
+    margin: 0;
+}
+p , li{
+	font-family: Roboto;
+}
+h1 , h2 , h3 {
+	font-family: Bebas;
+}
+
+#windows{
+	background-image: url(../img/digital-advertising.png)
+	height: 100vh; 
+	width: 100%;
+	display: block;
+	position: relative;
+	background-size:contain;
+	background-position: center;
+	z-index: 1;
+
+}
+.parag{
+	z-index:1;
+}
+#windows2{
+	margin-top:40px;
+}
+#style1{
+	text-align: center;
+}
+span{
+	color:blue;
+}
+.style-text{
+	text-align: center;
+}
+.icon{
+	height:30vh;
+	background-repeat: no-repeat;
+	width: 100%;
+	display:block;
+	position: relative;
+	text-align: center; 
+	margin-left:auto;
+	margin-top: 65px;
+}
+.center{
+	height: 10px;
+	text-align: center;
+}
+.center1{
+	text-align: center;
+	height: 15vh;
+}
+#center2{
+	padding-bottom: 20px;
+	text-align: center;
+}
+.text1{
+	height: 30vh;
+	width: 100%;
+	display:inline-block;
+	position: relative;
+}
+.text2{
+	display: inline-block;
+	width: 50%;
+	float:left;
+	text-align: center;
+}
+#text3{
+	text-align: left;
+    float: left;
+    width: 30%;
+    margin-left: 15%;
+    font-size: 18px;
+}
+#text4{
+	width: 30%;
+	text-align: left;
+    margin-left: 15%;
+    float: left;
+    font-size: 18px;
+}
+.check{
+	display:inline-block;
+	width: 100%;
+}
+.check1{
+	display: inline-block;
+	width: 20px;
+	float:left;
+	margin-left:10%;
+	margin-top: 15px;
+}
+.check2{
+	display: inline-block;
+	float:left;
+	font-size: 18px;
+	margin-left: 20px;
+	width: 72%;
+}
+.iconcheck{
+	display:inline-block;
+	width: 33%;
+	float:left;
+	margin:0 auto;
+}
+.iconcheck1{
+	display: inline-block;
+	width: 33%;
+	float:left;
+	margin:0 auto;
+}
+.bucks{
+	height: 170vh;
+	width: 100%;
+	background-color:#6254d2;;
+	position: absolute;
+}
+.center-text{
+	text-align: center;
+	color: white;
+	height: 20px;
+
+}
+#class-text1{
+	    margin-top: 50px;
+}
+#line-cl{
+	text-align: center;
+	text-align: center;
+    margin-left: 48%;
+    margin-bottom: 30px;
+}
+.lorem{
+	width: 100%;
+	display: inline-block;
+
+}
+.loremimg{
+	margin-left:50px;
+	margin-top: 70px;
+}
+.center-text1{
+	text-align:center;
+	color:black;
+	height: 20px;
+
+}
+.last{
+	width: 100%;
+	height: 45vh;
+	display: inline-block;
+	background:white;
+}
+hr{
+	width: 40px;
+	background-color:blue;
+	color:blue;
+	margin-bottom: 20px;
+}
+.page{
+	text-align:center;
+	display:block;
+}
+.lasting{
+	width: 100%;
+	height: 45vh;
+	display: inline-block;
+	background:white;
+	text-align: center;
+
+}
+.lastimage{
+	height: 100vh;
+	width: 100%;
+	display: inline-block;
+}
+.lastfirst{
+	height: 100vh;
+	width: 100%;
+	display:inline-block;
+	background-image: url(../img/google-maps.png);
+	background-size:cover;
+	margin-top: 100px;
+	position: relative;
+
+}
+.center-last{
+	text-align:center;
+	color:white;
+	z-index: 2;
+	position: relative;
+
+}
+.filter1{
+	width: 100%;
+	height: 100%;
+	top:0;
+	left: 0%;
+	background-size: cover;
+	background: black;
+	opacity: .5;
+	display: inline-block;
+	position: absolute;
+}
+.lastp{
+	text-align:center;
+	color:white;
+	z-index: 2;
+	position: relative;
+}
+.white{
+	display:block;
+	text-align: center;
+	margin-bottom: 10px;
+	color:white;
+	z-index: 3;
+
+}
+.white1{
+	text-align: center;
+	margin-left:10%;
+	display: inline-block;
+	position: relative;
+
+}
+.plsu{
+	display: inline-block;
+	margin-left:40%;
+	z-index:2;
+	position: relative;
+}
+#plus1{
+	text-align:center;
+	margin-bottom: 0px;
+	text-align: center;
+    display: inline-block;
+    color:red;
+    position: relative;
+}
+.plus{
+	text-align: center;
+    height: 70px;
+    display: inline;
+    position: relative;
+}
