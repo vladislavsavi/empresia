@@ -116,10 +116,7 @@
     font-family: Bebas;
     src: url("../fonts/Bebas/TTF's/BebasNeue Regular.otf");
 }
-body{
-	height: 500vh;
-    margin: 0;
-}
+
 p , li{
 	font-family: Roboto;
 }
