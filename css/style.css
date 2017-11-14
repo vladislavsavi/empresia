@@ -29,12 +29,12 @@ h1 , h2 , h3 {
 
 #navMenu{
 	width: 100%;
-	height: 9%;
-	padding: 20px 30px;
-	position: fixed;
-	top: 0;
-	z-index: 3;
-	transition:0.6S;
+    height: 11%;
+    padding: 14px 0px 0px 20px;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    transition: 0.6S;
 }
 
 .Fix{
@@ -42,6 +42,7 @@ h1 , h2 , h3 {
 }
 
 #navMenu img{
+	width: 61px;
 	z-index: 2;
 	display: inline-block;
 }
@@ -50,19 +51,20 @@ h1 , h2 , h3 {
 	width: 80%;
     display: inline-block;
     position: absolute;
-    top: 30px;
-    left: 17%;
+    top: 19px;
+    left: 25%;
 }
 
 .item-menu{
 	display: inline-block;
-	margin-left: 7%;
+	margin-left: 5%;
 	transition: 500ms;
 }
 
 .item-menu a{
 	text-decoration: none;
-	color: #EEE;
+	color: #bbb;
+    font-size: 13px;
 }
 
 
@@ -91,21 +93,22 @@ h1 , h2 , h3 {
 }
 
 #slogonDiv p{
-	font-size: 1.5em;
+	font-size: 16px;
 }
 
 #calculate{
-    margin-top: 5%;
-    background-color: red;
+	margin-top: 3%;
+    background-color: #d00000;
     border: none;
     color: #fff;
-    height: 13%;
-    width: 34%;
+    height: 12%;
+    width: 27%;
     border-radius: 39px;
     box-shadow: rgba(194, 39, 19, 0.33) 0px 2px 5px 5px;
     outline: none;
     overflow: hidden;
     position: relative;
+    font-size: 14px;
 }
 
 #contactPanel{
