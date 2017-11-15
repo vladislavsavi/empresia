@@ -29,12 +29,17 @@ h1 , h2 , h3 {
 
 #navMenu{
 	width: 100%;
+	max-width: 1080px;
     height: 11%;
     padding: 14px 0px 0px 20px;
     position: fixed;
     top: 0;
     z-index: 3;
     transition: 0.6S;
+    display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 }
 
 .Fix{
@@ -49,10 +54,6 @@ h1 , h2 , h3 {
 
 #navMenu ul{
 	width: 80%;
-    display: inline-block;
-    position: absolute;
-    top: 19px;
-    left: 25%;
 }
 
 .item-menu{
@@ -112,17 +113,21 @@ h1 , h2 , h3 {
 }
 
 #contactPanel{
-	position: relative;
+	position: absolute;
+    bottom: 0;
 	width: 100%;
 	margin-top: 4%;
 	z-index: 2;
 }
 
+#contactPanel ul{
+    padding: 0;
+}
 
 .item-contact{
 	display: inline-block;
 	color: #fff;
-	padding-left: 17%;
+	margin-left: 17%;
 }
 
 @font-face {
