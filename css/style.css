@@ -537,6 +537,7 @@ hr{
 	text-align: left;
 	padding-top: 15px;
 	position: relative;
+	color: #000;
 }
 .foot:before{
 	position: absolute;
