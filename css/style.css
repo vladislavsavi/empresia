@@ -252,7 +252,7 @@ span{
 	margin:0 auto;
 }
 .bucks{
-	height: 157vh;
+	height: 147vh;
 	width: 100%;
 	background-color:blue;	
 }
@@ -260,10 +260,11 @@ span{
 	text-align: center;
 	color: white;
 	height: 20px;
-
+}
+#id1{
+	padding-top:30px;
 }
 #class-text1{
-	    margin-top: 50px;
 }
 #line-cl{
 	text-align: center;
