@@ -252,7 +252,7 @@ span{
 	margin:0 auto;
 }
 .bucks{
-	height: 147vh;
+	height: 137vh;
 	width: 100%;
 	background-color:blue;	
 }
@@ -331,6 +331,8 @@ hr{
 	color:white;
 	z-index: 2;
 	position: relative;
+	margin-bottom: 3px;
+    padding-top: 30px;
 
 }
 .filter1{
@@ -539,7 +541,7 @@ hr{
 .foot:before{
 	position: absolute;
 	content: '';
-	background-image: url(../156.png);
+	background-image: url(../img/156.png);
 	display: inline-block;
 	width: 10px;
 	height: 10px;
@@ -654,10 +656,10 @@ span{
 	margin-top:20%;
 	font-size:150%;
 	float:left;
-    margin-left:18%;
+    margin-left:22%;
 
 }
 #fontid{
 	margin-right:10%;
-	margin-left:10%;
+	margin-left:18%;
 }
