@@ -661,5 +661,26 @@ span{
 }
 #fontid{
 	margin-right:10%;
+<<<<<<< HEAD
 	margin-left:18%;
+=======
+	margin-left:10%;
+}
+
+
+#contactFoter{
+	color: #fff;
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+}
+
+ul{
+	color: #fff;
+}
+
+#contactFoter li{
+	list-style: none;
+	color: #fff;
+>>>>>>> 68bcf20c9dd11265ca2538afa4ed3aafa7056b1e
 }
