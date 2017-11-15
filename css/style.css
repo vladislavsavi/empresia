@@ -29,7 +29,6 @@ h1 , h2 , h3 {
 
 #navMenu{
 	width: 100%;
-	max-width: 1080px;
     height: 11%;
     padding: 14px 0px 0px 20px;
     position: fixed;
@@ -50,10 +49,12 @@ h1 , h2 , h3 {
 	width: 61px;
 	z-index: 2;
 	display: inline-block;
+	position: absolute;
+    left: 5%;
 }
 
 #navMenu ul{
-	width: 80%;
+	width: 38%;
 }
 
 .item-menu{
