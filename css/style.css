@@ -100,7 +100,7 @@ h1 , h2 , h3 {
 
 #calculate{
 	margin-top: 3%;
-    background-color: #d00000;
+    background-color: #fd0025;
     border: none;
     color: #fff;
     height: 12%;
@@ -119,16 +119,54 @@ h1 , h2 , h3 {
 	width: 100%;
 	margin-top: 4%;
 	z-index: 2;
+	margin-bottom: 50px;
 }
 
 #contactPanel ul{
     padding: 0;
 }
 
+.ul:and-child(3) {
+
+
+}
+
 .item-contact{
 	display: inline-block;
 	color: #fff;
 	margin-left: 17%;
+	position: relative;
+}
+.item-contact12{
+	display: inline-block;
+	color: #fff;
+	margin-left: 17%;
+	position: relative;
+}
+.item-contact:before{
+	position: absolute;
+	content: '';
+	background-image: url(../img/phone-receiver.png);
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	left: -34px;
+	bottom: 2px;
+}
+
+.item-contact12:before{
+	position: absolute;
+	content: '';
+	background-image: url(../img/mail.png);
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	left: -32px;
+	bottom: 0px;
 }
 
 @font-face {
@@ -168,7 +206,7 @@ h1 , h2 , h3 {
 	text-align: center;
 }
 span{
-	color:blue;
+	color:#3452ff;
 }
 .style-text{
 	text-align: center;
@@ -179,7 +217,7 @@ span{
 	width: 100%;
 	display:block;
 	position: relative;
-	text-align: center; 
+	text-align: center;
 	margin-left:auto;
 	margin-top: 65px;
 }
@@ -254,7 +292,7 @@ span{
 .bucks{
 	height: 137vh;
 	width: 100%;
-	background-color:blue;	
+	background-color:#3452ff;
 }
 .center-text{
 	text-align: center;
@@ -287,17 +325,30 @@ span{
 	height: 20px;
 
 }
+.lastpast1{
+	padding-bottom: 70px;
+}
 .last{
 	width: 100%;
 	height: 45vh;
 	display: inline-block;
 	background:white;
 }
-hr{
+.lineblue{
 	width: 40px;
 	background-color:blue;
 	color:blue;
 	margin-bottom: 20px;
+	height: 1.5px;
+	border: none;
+}
+.linewhite{
+	width: 40px;
+	background-color:white;
+	color:white;
+	margin-bottom: 20px;
+	height: 1.5px;
+	border: none;
 }
 .page{
 	text-align:center;
@@ -317,7 +368,7 @@ hr{
 	display: inline-block;
 }
 .lastfirst{
-	height: 100vh;
+	height: 111vh;
 	width: 100%;
 	display:inline-block;
 	background-image: url(../img/google-maps.png);
@@ -335,7 +386,7 @@ hr{
     padding-top: 30px;
 
 }
-.filter1{
+.filter12{
 	width: 100%;
 	height: 100%;
 	top:0;
@@ -360,99 +411,38 @@ hr{
 	z-index: 3;
 
 }
-.white1{
-	text-align: center;
-	margin-left:10%;
-	display: inline-block;
-	position: relative;
-
-}
-.plsu{
-	display: inline-block;
-	margin-left:40%;
-	z-index:2;
-	position: relative;
-}
-#plus1{
-	text-align:center;
-	margin-bottom: 0px;
-	text-align: center;
-    display: inline-block;
-    color:red;
-    position: relative;
-}
 .plus{
 	text-align: center;
     height: 70px;
     display: inline;
     position: relative;
 }
-.white{
-	display:block;
-	text-align: center;
-	margin-bottom: 10px;
-	color:white;
-	z-index: 3;
-
+.address{
+	display: inline-block;
+	margin-left: 38em;
+	position: relative;
+	padding-top: 30px;
+}
+.address1{
+	display: inline-block;
+	float: left;
+}
+.adress2{
+	display: inline-block;
+	float: left;
+	margin-left: 10px;
+}
+.red1{
+	color:red;
 }
 .white1{
-	text-align: center;
-	margin-left: 5%;
-	display: inline-block;
+	color: white;
 	position: relative;
-
 }
-.plsu{
-	margin-left:40%;
-	z-index:2;
-	position: relative;
-	display: inline;
+.group{
+	margin-left: 59px;
+	margin-top: 50px;
 }
-#plus1{
-	text-align:center;
-	margin-bottom: 0px;
-	text-align: center;
-    display: inline-block;
-    color:red;
-    position: relative;
-}
-.plus{
-	text-align: center;
-    height: 70px;
-    display: inline;
-    position: relative;
-}
-.plsu1{
-	margin-left:40%;
-	z-index:2;
-	position: relative;
-	display: inline;
-
-}
-.white2{
-	text-align: center;
-	margin-left: 5%;
-	display: inline-block;
-	position: relative;
-
-}
-.plsu2{
-	display: inline-block;
-	text-align: center;
-	margin-left: 45%;
-}
-.mobile{
-	display: inline-block;
-	text-align:center;
-	float:left;
-}
-.number{
-	display: inline-block;
-	text-align:center;
-	float:left;
-	color:white;
-}
-
 #footer{
 	width: 100%;
 	height: 50vh;
@@ -477,6 +467,7 @@ hr{
 #sections{
 	display: inline-block;
 	color: #fff;
+	margin-left: 250px;
 }
 
 #sections ul{
@@ -496,7 +487,7 @@ hr{
 	position: relative;
 	display:inline-block;
 	text-align:center;
-	background:blue;
+	background:#3452ff;
 	border:none;
 	top: 0;
 	left: 0;
@@ -513,6 +504,7 @@ hr{
 	float: left;
     margin-left: 4em;
 }
+
 #respon{
 	
 }
@@ -524,14 +516,20 @@ hr{
 
 }
 #image1{
-	background-image: url(../img/1.jpg);
+	background-image: url(../img/4.png);
 }
 #image2{
-	background-image: url(../img/2.jpeg);
+	background-image: url(../img/5.png);
 }
 #image3{
-	background-image: url(../img/31.png);
+	background-image: url(../img/6.png);
 }
+.icons1{
+	display: inline-block;
+	padding:0 140px;
+
+}
+
 .foot{
 	list-style: none;
 	text-align: left;
@@ -645,7 +643,7 @@ span{
 	left: 0%;
 	background-size: cover;
 	background: black;
-	opacity: .5;
+	opacity: .8;
 	display: inline-block;
 	position: absolute;
 }
@@ -671,17 +669,48 @@ span{
 
 #contactFoter{
 	color: #fff;
-	width: 100px;
+	width: 250px;
 	height: 100px;
 	display: inline-block;
+	float: right;
+	margin-right: 130px;
+	margin-top: 65px;
+	position: relative;
 }
+.before1{
+	padding-left: 35px;
+	padding-bottom: 10px;
+}
+.before1:before {
+	position: absolute;
+	content: '';
+	background-image: url(../img/phone-receiver.png);
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	left: -4px;
+	bottom: 10px;
+}
+#h21{
+	padding-bottom: 7px;
+}
+.before2{
+	padding-left: 35px;
+}
+.before2:before {
+	position: absolute;
+	content: '';
+	background-image: url(../img/mail.png);
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	left: -4px;
+	bottom: -36px;
 
 ul{
 	color: #fff;
-}
-
-#contactFoter li{
-	list-style: none;
-	color: #fff;
->>>>>>> 68bcf20c9dd11265ca2538afa4ed3aafa7056b1e
 }
