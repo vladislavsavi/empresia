@@ -54,7 +54,8 @@ h1 , h2 , h3 {
 }
 
 #navMenu ul{
-	width: 38%;
+    width: 32%;
+    padding: 0;
 }
 
 .item-menu{
@@ -186,8 +187,7 @@ h1 , h2 , h3 {
 }
 
 #windows{
-	background-image: url(../img/digital-advertising.png)
-	height: 100vh; 
+	height: 145vh; 
 	width: 100%;
 	display: block;
 	position: relative;
@@ -200,15 +200,18 @@ h1 , h2 , h3 {
 	z-index:1;
 }
 #windows2{
-	margin-top:40px;
+    margin-top: 67px
 }
 #style1{
 	text-align: center;
+	font-weight: 100;
+	margin-bottom: 35px;
 }
 span{
 	color:#3452ff;
 }
 .style-text{
+	opacity: 0.6;
 	text-align: center;
 }
 .icon{
@@ -224,6 +227,7 @@ span{
 .center{
 	height: 10px;
 	text-align: center;
+    font-weight: 100;
 }
 .center1{
 	text-align: center;
@@ -240,32 +244,37 @@ span{
 	position: relative;
 }
 .text2{
+	opacity: 0.6;
 	display: inline-block;
 	width: 50%;
 	float:left;
 	text-align: center;
 }
 #text3{
+	opacity: 0.6;
 	text-align: left;
     float: left;
     width: 30%;
-    margin-left: 15%;
+    margin-left: 10%;
     font-size: 18px;
 }
 #text4{
 	width: 30%;
 	text-align: left;
-    margin-left: 15%;
+    margin-left: 18%;
     float: left;
     font-size: 18px;
 }
 .check{
-	display:inline-block;
-	width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
 }
 .check1{
 	display: inline-block;
-	width: 20px;
+	width: 17px;
 	float:left;
 	margin-left:10%;
 	margin-top: 15px;
@@ -273,24 +282,21 @@ span{
 .check2{
 	display: inline-block;
 	float:left;
-	font-size: 18px;
 	margin-left: 20px;
 	width: 72%;
+	opacity: 0.6;
 }
 .iconcheck{
-	display:inline-block;
-	width: 33%;
-	float:left;
-	margin:0 auto;
+    display: inline-block;
+    width: 380px;
 }
 .iconcheck1{
 	display: inline-block;
-	width: 33%;
-	float:left;
-	margin:0 auto;
+    width: 380px;
 }
 .bucks{
-	height: 137vh;
+	padding-top: 35px;
+	height: 156vh;
 	width: 100%;
 	background-color:#3452ff;
 }
@@ -303,7 +309,13 @@ span{
 	padding-top:30px;
 }
 #class-text1{
+	margin-top: 56px;
 }
+
+.bucks p:nth-child(4){
+	margin-top:-15px;
+}
+
 #line-cl{
 	text-align: center;
 	text-align: center;
@@ -320,6 +332,7 @@ span{
 	margin-top: 70px;
 }
 .center-text1{
+	margin-top: 2em;
 	text-align:center;
 	color:black;
 	height: 20px;
@@ -329,6 +342,7 @@ span{
 	padding-bottom: 70px;
 }
 .last{
+	position: relative;
 	width: 100%;
 	height: 45vh;
 	display: inline-block;
@@ -339,7 +353,7 @@ span{
 	background-color:blue;
 	color:blue;
 	margin-bottom: 20px;
-	height: 1.5px;
+	height: 1px;
 	border: none;
 }
 .linewhite{
@@ -351,6 +365,7 @@ span{
 	border: none;
 }
 .page{
+    opacity: 0.6;
 	text-align:center;
 	display:block;
 }
@@ -489,7 +504,7 @@ span{
 	text-align:center;
 	background:#3452ff;
 	border:none;
-	top: 0;
+    top: 5em;
 	left: 0;
 	float:left;
 	padding-top: 1em;
@@ -526,7 +541,7 @@ span{
 }
 .icons1{
 	display: inline-block;
-	padding:0 140px;
+	padding:0 65px;
 
 }
 
