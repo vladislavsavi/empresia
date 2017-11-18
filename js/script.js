@@ -82,9 +82,10 @@ this.appendChild(addDiv);
 
 
 line.onclick = function (){
-  ball.className = 'checkAnimated';
+  ball.style.left = '30px';
+  
   setTimeout(function(){
-  	document.getElementById('cont').style.display = 'none';
-  	document.getElementById('filterEnd').style.display = 'none';
+  	document.getElementById('cont').style.opacity = '0';
+  	document.getElementById('cont').style.zIndex = '-10';
   },500);
 }

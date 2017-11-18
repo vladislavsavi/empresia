@@ -659,6 +659,7 @@ span{
 	opacity: .8;
 	display: inline-block;
 	position: absolute;
+	transition: 1s;
 }
 .fontpast{
 	color: white;
@@ -745,12 +746,16 @@ span{
 }
 
 iframe{
+	z-index: 1;
 	width: 100%;
 	height: 135vh;
 }
 #cont{
     position: absolute;
     top: 2EM;
+    z-index: 2;
+    height: 100%;
+    transition:1s;
 }
 
 ul{
@@ -758,19 +763,8 @@ ul{
 }
 
 
-.checkAnimated{
-	 animation-name: bounce;
-	 animation-duration: 0.5s;
-}
 
 
-@keyframes bounce {
-	0%	{left: 4px}
-	50%	{ left: 30px }
-	60%	{ left: 25px }
-	70%	{ left: 30px }
-	90%	{ left: 25px }
-	100%{ left: 30px }
-	}
+
 
 
