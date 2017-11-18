@@ -82,10 +82,23 @@ this.appendChild(addDiv);
 
 
 line.onclick = function (){
-  ball.style.left = '30px';
+	debugger
+	 if (ball.className == 'ChekOn') {
+  	ball.className == 'ChekOff';
+
+	  	setTimeout(function(){
+	  	document.getElementById('cont').style.opacity = '1';
+	  	document.getElementById('cont').style.zIndex = '11';
+	  },500);
+  }
+	
+  if (ball.className !== 'ChekOn') {
+  	ball.className = 'ChekOn';
+
+	  	setTimeout(function(){
+	  	document.getElementById('cont').style.opacity = '0';
+	  	document.getElementById('cont').style.zIndex = '-10';
+	  },500);
+  }
   
-  setTimeout(function(){
-  	document.getElementById('cont').style.opacity = '0';
-  	document.getElementById('cont').style.zIndex = '-10';
-  },500);
 }
