@@ -383,7 +383,7 @@ span{
 	display: inline-block;
 }
 .lastfirst{
-	height: 125vh;
+	height: 135vh;;
 	width: 100%;
 	display:inline-block;
 	background-image: url(../img/google-maps.png);
@@ -653,7 +653,7 @@ span{
 }
 .filter1{
 	width: 100%;
-	height: 100%;
+	height: 101%;
 	top:0;
 	left: 0%;
 	background-size: cover;
@@ -746,6 +746,15 @@ span{
 	bottom: -36px;
 }
 
+iframe{
+	width: 100%;
+	height: 135vh;
+}
+#cont{
+    position: absolute;
+    top: 2EM;
+}
+
 ul{
 	color: #fff;
 }
@@ -765,3 +774,5 @@ ul{
 	90%	{ left: 25px }
 	100%{ left: 30px }
 	}
+
+

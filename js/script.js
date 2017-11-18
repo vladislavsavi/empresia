@@ -84,6 +84,7 @@ this.appendChild(addDiv);
 line.onclick = function (){
   ball.className = 'checkAnimated';
   setTimeout(function(){
-  	document.getElementById('filterEnd').style.opacity = '0';
+  	document.getElementById('cont').style.display = 'none';
+  	document.getElementById('filterEnd').style.display = 'none';
   },500);
 }
