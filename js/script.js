@@ -8,7 +8,8 @@ window.onscroll = function () {
 	}
 }
 
-
+var line = document.getElementById('line');
+var ball = document.getElementById('ball');
 
 var buttonCoords = {
   x: 0,
@@ -77,4 +78,13 @@ sDiv.top   = e.clientY - rect.top - (mValue / 2) + px;
 
 addDiv.classList.add('pulse');
 this.appendChild(addDiv);
+}
+
+
+line.onclick = function (){
+  ball.className = 'checkAnimated';
+  setTimeout(function(){
+  	document.getElementById('cont').style.display = 'none';
+  	document.getElementById('filterEnd').style.display = 'none';
+  },500);
 }

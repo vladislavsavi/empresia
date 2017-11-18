@@ -382,7 +382,7 @@ span{
 	display: inline-block;
 }
 .lastfirst{
-	height: 111vh;
+	height: 135vh;;
 	width: 100%;
 	display:inline-block;
 	background-image: url(../img/google-maps.png);
@@ -422,9 +422,9 @@ span{
 	text-align: center;
 	margin-bottom: 10px;
 	color:white;
-	z-index: 3;
-
+	z-index: 3; 
 }
+
 .plus{
 	text-align: center;
     height: 70px;
@@ -585,9 +585,8 @@ span{
 }
 .butt{
 	font-family: sans-serif;
-	
-	border: 3px solid #218294;
-	color:  #218294;
+	color: white;
+	background-color: #3452ff;
 	text-decoration: none;
 	display:block;
 	text-align:center;
@@ -603,6 +602,7 @@ span{
     margin-top: 10px;
     margin-left: 22%;
     margin-bottom: 30px;
+	box-shadow: 2px -3px 10px #3452ff;
 }
 .butt::before,
 .butt::after {
@@ -651,7 +651,7 @@ span{
 }
 .filter1{
 	width: 100%;
-	height: 100%;
+	height: 101%;
 	top:0;
 	left: 0%;
 	background-size: cover;
@@ -712,6 +712,25 @@ span{
 .before2{
 	padding-left: 35px;
 }
+
+#line{
+  position: relative;
+  width:50px;
+  height: 10px;
+  background-color:rgba(255,0,0,0.6);
+  border-radius: 30px;
+}
+
+#ball{
+     width: 16px;
+    height: 16px;
+    position: absolute;
+    top: -2px;
+    left:4px;
+    background-color: #c32c12;
+    border-radius: 50%;
+    transition:1s;
+}
 .before2:before {
 	position: absolute;
 	content: '';
@@ -723,7 +742,35 @@ span{
 	background-repeat: no-repeat;
 	left: -4px;
 	bottom: -36px;
+}
+
+iframe{
+	width: 100%;
+	height: 135vh;
+}
+#cont{
+    position: absolute;
+    top: 2EM;
+}
 
 ul{
 	color: #fff;
 }
+
+
+.checkAnimated{
+	 animation-name: bounce;
+	 animation-duration: 0.5s;
+}
+
+
+@keyframes bounce {
+	0%	{left: 4px}
+	50%	{ left: 30px }
+	60%	{ left: 25px }
+	70%	{ left: 30px }
+	90%	{ left: 25px }
+	100%{ left: 30px }
+	}
+
+
