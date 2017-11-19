@@ -10,6 +10,8 @@ window.onscroll = function () {
 
 var line = document.getElementById('line');
 var ball = document.getElementById('ball');
+ball.setAttribute('state','');
+ball.state = 'off';
 
 var buttonCoords = {
   x: 0,
@@ -80,25 +82,30 @@ addDiv.classList.add('pulse');
 this.appendChild(addDiv);
 }
 
-
-line.onclick = function (){
-	debugger
-	 if (ball.className == 'ChekOn') {
-  	ball.className == 'ChekOff';
-
-	  	setTimeout(function(){
-	  	document.getElementById('cont').style.opacity = '1';
-	  	document.getElementById('cont').style.zIndex = '11';
-	  },500);
-  }
 	
-  if (ball.className !== 'ChekOn') {
-  	ball.className = 'ChekOn';
-
-	  	setTimeout(function(){
-	  	document.getElementById('cont').style.opacity = '0';
-	  	document.getElementById('cont').style.zIndex = '-10';
-	  },500);
+line.onclick = function (){
+   if (ball.state == 'on') {
+    ball.classList.remove('ChekOn');
+    ball.className == 'ChekOff';
+    ball.state = 'off';
+    ball.style.left = '4px';
+      setTimeout(function(){
+      document.getElementById('cont').style.opacity = '1';
+      document.getElementById('cont').style.zIndex = '11';
+      BottomText.style.color = 'white';
+    },1000);
   }
-  
+  else{
+  if (ball.state == 'off') {
+    ball.classList.remove('ChekOff');
+    ball.className = 'ChekOn';
+    ball.state = 'on';
+      ball.style.left = '30px';
+      setTimeout(function(){
+      document.getElementById('cont').style.opacity = '0';
+      document.getElementById('cont').style.zIndex = '-10';
+      BottomText.style.color = '#000';
+    },1000);
+  }
+}
 }

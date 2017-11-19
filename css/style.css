@@ -39,6 +39,7 @@ h1 , h2 , h3 {
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+	z-index: 14;
 }
 
 .Fix{
@@ -714,6 +715,7 @@ span{
 
 #line{
   position: relative;
+  margin-left: 60px;
   width:50px;
   height: 10px;
   background-color:rgba(255,0,0,0.6);
@@ -753,7 +755,7 @@ iframe{
     top: 0EM;
     z-index: 2;
     height: 100%;
-    transition:1.5s;
+    transition:0.5s;
 }
 
 ul{
@@ -761,19 +763,40 @@ ul{
 }
 
 .ChekOn{
-	transition: 0.5s;
-	position: absolute;
+	animation-name: on;
+	animation-duration: 1s;
 	z-index: 100;
-	opacity: 1;
-	left: 30px;
 }
 
 .ChekOff{
-	left: 4px;
+	animation-name: off;
+	animation-duration: 1s;
+	z-index: 100;
+}
+
+#contButton{
+	position: absolute;
+	bottom: 18%;
+	z-index: 12;
+}
+
+@keyframes on {
+	from{
+		left: 4px;
+	}
+	to {
+		left: 30px;
+	}
 }
 
 
-
-
+@keyframes off {
+	from{
+		left: 30px;
+	}
+	to {
+		left: 4px;
+	}
+}
 
 
