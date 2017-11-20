@@ -4,13 +4,17 @@
 }
 @font-face {
     font-family: Bebas;
-    src: url("../font/Bebas/BebasCyrillic.ttf");
+    src: url("../font/Bebas/BebasNeue Regular.otf");
 }
 p , li{
 	font-family: Roboto;
+	font-weight: 100;
+
 }
 h1 , h2 , h3 {
 	font-family: Bebas;
+	font-weight: 100;
+
 }
 .bubble {
   border-radius: 100% !important;
@@ -112,6 +116,9 @@ h1 , h2 , h3 {
     overflow: hidden;
     position: relative;
     font-size: 14px;
+}
+.icons1 p{
+	opacity: .6;
 }
 
 #contactPanel{
@@ -363,6 +370,16 @@ span{
 	height: 1.5px;
 	border: none;
 }
+.linewhite1{
+	width: 40px;
+	background-color:white;
+	color:white;
+	margin-bottom: 20px;
+	height: 1.5px;
+	border: none;
+	position: absolute;
+	margin-left: 48%;
+}
 .page{
     opacity: 0.6;
 	text-align:center;
@@ -370,7 +387,7 @@ span{
 }
 .lasting{
 	width: 100%;
-	height: 45vh;
+	height: 90vh;
 	display: inline-block;
 	background:white;
 	text-align: center;
@@ -380,6 +397,7 @@ span{
 	height: 100vh;
 	width: 100%;
 	display: inline-block;
+	background-color: black;
 }
 .lastfirst{
 	height: 135vh;;
@@ -414,6 +432,13 @@ span{
 .lastp{
 	text-align:center;
 	color:white;
+	z-index: 2;
+	position: relative;
+	margin-top: 70px;
+}
+#lastpast1{
+	text-align: center;
+	color: white;
 	z-index: 2;
 	position: relative;
 }
@@ -482,6 +507,9 @@ span{
 	display: inline-block;
 	color: #fff;
 	margin-left: 250px;
+	margin-top: 63px;
+	line-height: 1.5;
+
 }
 
 #sections ul{
@@ -631,14 +659,17 @@ span{
 .butt:hover::after {
 	left: 0;
 }
-
-.pulse {
- background-color: aqua;
- border-radius: 50%;
- animation: pulse 0.7s ease-out;
- transform: scale(0);
- position: absolute;
+.troll li span{
+	opacity: .5;
 }
+.pulse {
+	 background-color: aqua;
+	 border-radius: 50%;
+	 animation: pulse 0.7s ease-out;
+	 transform: scale(0);
+	 position: absolute;
+	z-index: 0;
+	}
 @keyframes pulse {
  to {
   transform: scale(2);
@@ -716,21 +747,35 @@ span{
 
 #line{
   position: relative;
-  width:50px;
+  width:40px;
   height: 10px;
   background-color:rgba(255,0,0,0.6);
   border-radius: 30px;
+  margin-left: 47px;
 }
+.filter234{
+	display: inline-block;
+}
+.filter23{
+	background-color: black;
+	width: 29.7%;
+	opacity: 0.6;
+	height: 39.4%;
+	margin-left: 8px;
+	margin-top: 5px;
+	display: inline-block;
+	position: absolute;
+ }
 
 #ball{
-     width: 16px;
-    height: 16px;
-    position: absolute;
-    top: -2px;
-    left:4px;
-    background-color: #c32c12;
-    border-radius: 50%;
-    transition:1s;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	top: -3px;
+	left: 4px;
+	background-color: #c32c12;
+	border-radius: 50%;
+	transition: 1s;
 }
 .before2:before {
 	position: absolute;
