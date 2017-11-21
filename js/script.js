@@ -93,6 +93,7 @@ line.onclick = function (){
       document.getElementById('cont').style.opacity = '1';
       document.getElementById('cont').style.zIndex = '11';
       BottomText.style.color = 'white';
+      BottomText.innerHTML = 'Посмотреть на карте';
     },1000);
   }
   else{
@@ -105,6 +106,7 @@ line.onclick = function (){
       document.getElementById('cont').style.opacity = '0';
       document.getElementById('cont').style.zIndex = '-10';
       BottomText.style.color = '#000';
+      BottomText.innerHTML = 'Вернуться к просмотру контактов';
     },1000);
   }
 }

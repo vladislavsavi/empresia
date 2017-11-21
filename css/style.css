@@ -61,6 +61,7 @@ h1 , h2 , h3 {
 #navMenu ul{
     width: 32%;
     padding: 0;
+    min-width: 430px;
 }
 
 .item-menu{
@@ -72,7 +73,7 @@ h1 , h2 , h3 {
 .item-menu a{
 	text-decoration: none;
 	color: white;
-    font-size: 13px;
+    font-size: 0.8em;
 }
 
 
@@ -101,10 +102,12 @@ h1 , h2 , h3 {
 }
 
 #slogonDiv p{
-	font-size: 16px;
+	font-size: 1em;
 }
 
 #calculate{
+	min-width: 200px;
+    min-height: 38px;
 	margin-top: 3%;
     background-color: #fd0025;
     border: none;
