@@ -6,7 +6,7 @@
     font-family: Bebas;
     src: url("../font/Bebas/BebasNeue Regular.otf");
 }
-p , ul li{
+p , li{
 	font-family: Roboto;
 	font-weight: 100;
 
@@ -56,7 +56,6 @@ h1 , h2 , h3 {
 	display: inline-block;
 	position: absolute;
     left: 5%;
-	bottom: 11px;
 }
 
 #navMenu ul{
@@ -134,6 +133,10 @@ h1 , h2 , h3 {
 
 #contactPanel ul{
     padding: 0;
+    display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
 }
 
 .ul:and-child(3) {
@@ -144,7 +147,6 @@ h1 , h2 , h3 {
 .item-contact{
 	display: inline-block;
 	color: #fff;
-	margin-left: 17%;
 	position: relative;
 }
 .item-contact12{
@@ -501,7 +503,6 @@ iframe{
     width: 240px;
     height: 178px;
     color: #fff;
-	font-family: Roboto;
 }
 
 #ContLogo img{
@@ -666,7 +667,6 @@ iframe{
 }
 .troll li span{
 	opacity: .5;
-	color: black;
 }
 .pulse {
 	 background-color: aqua;
@@ -778,6 +778,7 @@ span{
 	display: inline-block;
 	position: absolute;
  }
+<<<<<<< HEAD
 @media (max-width:800px) {
 	#firstSection, .blackDiv, #navMenu, #calculate #contactPanel, #windows, .check, .iconcheck, .check1, .bucks, .class, #respon, .one2, .one, .one1, .last, .center-text1, .filter234, .filter23, .lastimg, #cont, .filter1, #filterEnd , .plsu , .address1, .address{
 		width:100%;/*The width is 100%, when the viewport is 800px or smaller*/
@@ -817,6 +818,8 @@ span{
 		font-size: 13px;
 	}
 }
+=======
+>>>>>>> 8e1f86cf32e47d9343c957fc7c42a4bd0d3c1b95
 
 #ball{
 	width: 15px;
