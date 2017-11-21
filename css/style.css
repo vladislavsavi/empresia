@@ -71,7 +71,7 @@ h1 , h2 , h3 {
 
 .item-menu a{
 	text-decoration: none;
-	color: #bbb;
+	color: white;
     font-size: 13px;
 }
 
@@ -109,8 +109,8 @@ h1 , h2 , h3 {
     background-color: #fd0025;
     border: none;
     color: #fff;
-    height: 12%;
-    width: 27%;
+    height: 10%;
+    width: 24%;
     border-radius: 39px;
     box-shadow: rgba(194, 39, 19, 0.33) 0px 2px 5px 5px;
     outline: none;
@@ -401,12 +401,16 @@ span{
 	background-color: black;
 }
 .lastfirst{
-	height: 135vh;;
+	height: 100vh;
 	width: 100%;
-	display:inline-block;
+	display: inline-block;
 	margin-top: 100px;
 	position: relative;
-
+}
+iframe{
+	z-index: 1;
+	width: 100%;
+	height: 100vh;
 }
 .center-last{
 	text-align:center;
@@ -433,7 +437,8 @@ span{
 	color:white;
 	z-index: 2;
 	position: relative;
-	margin-top: 70px;
+	margin-top: 45px;
+
 }
 #lastpast1{
 	text-align: center;
@@ -459,7 +464,7 @@ span{
 	display: inline-block;
 	margin-left: 38em;
 	position: relative;
-	padding-top: 30px;
+	padding-top: 10px;
 }
 .address1{
 	display: inline-block;
@@ -629,7 +634,6 @@ span{
     margin-top: 10px;
     margin-left: 22%;
     margin-bottom: 30px;
-	box-shadow: 2px -3px 10px #3452ff;
 }
 .butt::before,
 .butt::after {
@@ -681,7 +685,7 @@ span{
 }
 .filter1{
 	width: 100%;
-	height: 101%;
+	height: 107%;
 	top:0;
 	left: 0%;
 	background-size: cover;
@@ -798,7 +802,7 @@ span{
 iframe{
 	z-index: 1;
 	width: 100%;
-	height: 135vh;
+	height: 106vh;
 }
 #cont{
     position: absolute;
@@ -826,7 +830,7 @@ ul{
 
 #contButton{
 	position: absolute;
-	bottom: 18%;
+	bottom: 2%;
 	z-index: 12;
 }
 
