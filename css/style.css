@@ -6,7 +6,7 @@
     font-family: Bebas;
     src: url("../font/Bebas/BebasNeue Regular.otf");
 }
-p , li{
+p , ul li{
 	font-family: Roboto;
 	font-weight: 100;
 
@@ -56,6 +56,7 @@ h1 , h2 , h3 {
 	display: inline-block;
 	position: absolute;
     left: 5%;
+	bottom: 11px;
 }
 
 #navMenu ul{
@@ -500,6 +501,7 @@ iframe{
     width: 240px;
     height: 178px;
     color: #fff;
+	font-family: Roboto;
 }
 
 #ContLogo img{
@@ -664,6 +666,7 @@ iframe{
 }
 .troll li span{
 	opacity: .5;
+	color: black;
 }
 .pulse {
 	 background-color: aqua;
@@ -769,12 +772,18 @@ span{
 	background-color: black;
 	width: 29.7%;
 	opacity: 0.6;
-	height: 39.4%;
+	height: 42.4%;
 	margin-left: 8px;
 	margin-top: 5px;
 	display: inline-block;
 	position: absolute;
  }
+@media (max-width:800px) {
+	#firstSection, .blackDiv, #navMenu, #calculate #contactPanel, #windows, .check, .iconcheck, .check1, .bucks, .class, #respon, .one2, .one, .one1, .last, .center-text1, .filter234, .filter23, .lastimg, #cont, .filter1, #filterEnd , .plsu , .address1, .address{
+		width:100%;/*The width is 100%, when the viewport is 800px or smaller*/
+		height: auto;
+	}
+}
 
 #ball{
 	width: 15px;
