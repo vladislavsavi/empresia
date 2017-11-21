@@ -772,7 +772,7 @@ span{
 	background-color: black;
 	width: 29.7%;
 	opacity: 0.6;
-	height: 42.4%;
+	height: 39.4%;
 	margin-left: 8px;
 	margin-top: 5px;
 	display: inline-block;
@@ -782,6 +782,39 @@ span{
 	#firstSection, .blackDiv, #navMenu, #calculate #contactPanel, #windows, .check, .iconcheck, .check1, .bucks, .class, #respon, .one2, .one, .one1, .last, .center-text1, .filter234, .filter23, .lastimg, #cont, .filter1, #filterEnd , .plsu , .address1, .address{
 		width:100%;/*The width is 100%, when the viewport is 800px or smaller*/
 		height: auto;
+	}
+	#style1{
+		width:90%;
+		margin-left:20px;
+		text-align: center;
+		font-weight: 100;
+		margin-bottom:35px;
+	}
+	#style1 span{
+		margin-left:100;
+	}
+	.center1{
+		margin-top:150px;
+	}
+	.center{
+		height: 10px;
+		text-align: center;
+		font-weight: 100;
+	}
+	.text1{
+		height: 30vh;
+		width: 100%;
+		display: inline-block;
+		position: relative;
+	}
+	#text3{
+		width:90%;
+		margin-top: -26px;
+		opacity: 0.6;
+		text-align: left;
+		float: left;
+		margin-left: 31%;
+		font-size: 13px;
 	}
 }
 
