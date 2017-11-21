@@ -61,7 +61,6 @@ h1 , h2 , h3 {
 #navMenu ul{
     width: 32%;
     padding: 0;
-    min-width: 430px;
 }
 
 .item-menu{
@@ -73,7 +72,7 @@ h1 , h2 , h3 {
 .item-menu a{
 	text-decoration: none;
 	color: white;
-    font-size: 0.8em;
+    font-size: 13px;
 }
 
 
@@ -102,12 +101,10 @@ h1 , h2 , h3 {
 }
 
 #slogonDiv p{
-	font-size: 1em;
+	font-size: 16px;
 }
 
 #calculate{
-	min-width: 200px;
-    min-height: 38px;
 	margin-top: 3%;
     background-color: #fd0025;
     border: none;
@@ -136,6 +133,10 @@ h1 , h2 , h3 {
 
 #contactPanel ul{
     padding: 0;
+    display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
 }
 
 .ul:and-child(3) {
@@ -146,7 +147,6 @@ h1 , h2 , h3 {
 .item-contact{
 	display: inline-block;
 	color: #fff;
-	margin-left: 17%;
 	position: relative;
 }
 .item-contact12{

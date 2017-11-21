@@ -27,8 +27,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="16" column="60" lean-forward="true" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
+            <state relative-caret-position="-3840">
+              <caret line="37" column="10" lean-forward="true" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
               <folding>
                 <element signature="n#style#0;n#iframe#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -36,20 +36,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="embed.rnc" pinned="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/embed.rnc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="429" column="16" lean-forward="false" selection-start-line="429" selection-start-column="16" selection-end-line="429" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1909">
+            <state relative-caret-position="23">
               <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
               <folding />
             </state>
@@ -59,8 +49,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="73" column="17" lean-forward="false" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
+            <state relative-caret-position="242">
+              <caret line="785" column="1" lean-forward="true" selection-start-line="785" selection-start-column="1" selection-end-line="785" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -89,6 +79,9 @@
       <find>filter1</find>
       <find>#contBut</find>
       <find>.butt</find>
+      <find>navMenu im</find>
+      <find>#ContLOgo</find>
+      <find>filter23</find>
       <find>/butt</find>
     </findStrings>
   </component>
@@ -113,7 +106,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-383" />
     <option name="y" value="35" />
     <option name="width" value="1346" />
@@ -147,11 +140,6 @@
               <item name="Empressia" type="b2602c69:ProjectViewProjectNode" />
               <item name="Empressia" type="462c0819:PsiDirectoryNode" />
               <item name="font" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Empressia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Empressia" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -278,12 +266,12 @@
       <workItem from="1510995032734" duration="5973000" />
       <workItem from="1511014132462" duration="3413000" />
       <workItem from="1511153474767" duration="5462000" />
-      <workItem from="1511240810448" duration="2159000" />
+      <workItem from="1511240810448" duration="9287000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44711000" />
+    <option name="totallyTimeSpent" value="51839000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -295,7 +283,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22986823" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -671,14 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1909">
-          <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/embed.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
@@ -687,10 +667,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/phrase.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="343" column="16" lean-forward="false" selection-start-line="343" selection-start-column="16" selection-end-line="343" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="60" lean-forward="true" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
+        <state relative-caret-position="-3840">
+          <caret line="37" column="10" lean-forward="true" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -699,8 +695,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="73" column="17" lean-forward="false" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
+        <state relative-caret-position="242">
+          <caret line="785" column="1" lean-forward="true" selection-start-line="785" selection-start-column="1" selection-end-line="785" selection-end-column="1" />
           <folding />
         </state>
       </provider>
