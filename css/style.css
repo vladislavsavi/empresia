@@ -6,7 +6,7 @@
     font-family: Bebas;
     src: url("../font/Bebas/BebasNeue Regular.otf");
 }
-p , li{
+p , ul li{
 	font-family: Roboto;
 	font-weight: 100;
 
@@ -56,6 +56,7 @@ h1 , h2 , h3 {
 	display: inline-block;
 	position: absolute;
     left: 5%;
+	bottom: 11px;
 }
 
 #navMenu ul{
@@ -133,10 +134,6 @@ h1 , h2 , h3 {
 
 #contactPanel ul{
     padding: 0;
-    display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	align-items: center;
 }
 
 .ul:and-child(3) {
@@ -147,6 +144,7 @@ h1 , h2 , h3 {
 .item-contact{
 	display: inline-block;
 	color: #fff;
+	margin-left: 17%;
 	position: relative;
 }
 .item-contact12{
@@ -198,7 +196,7 @@ h1 , h2 , h3 {
 }
 
 #windows{
-	height: 145vh; 
+	height: 145vh;
 	width: 100%;
 	display: block;
 	position: relative;
@@ -454,7 +452,7 @@ iframe{
 	text-align: center;
 	margin-bottom: 10px;
 	color:white;
-	z-index: 3; 
+	z-index: 3;
 }
 
 .plus{
@@ -503,6 +501,7 @@ iframe{
     width: 240px;
     height: 178px;
     color: #fff;
+	font-family: Roboto;
 }
 
 #ContLogo img{
@@ -541,7 +540,7 @@ iframe{
     top: 5em;
 	left: 0;
 	float:left;
-	
+
 }
 .one{
 	width: 26.5%;
@@ -554,7 +553,7 @@ iframe{
 }
 
 #respon{
-	
+
 }
 .one1{
 	width: 100%;
@@ -615,7 +614,7 @@ iframe{
 	-moz- transform:translate(-50%, 50%);
 	-ms- transform:translate(-50%, 50%);
 	-o-transform:translate(-50%, 50%);
-	transform:translate(-50%, 50%); 
+	transform:translate(-50%, 50%);
 	margin-left: 29%;
 }
 .butt{
@@ -667,6 +666,7 @@ iframe{
 }
 .troll li span{
 	opacity: .5;
+	color: black;
 }
 .pulse {
 	 background-color: aqua;
@@ -778,48 +778,6 @@ span{
 	display: inline-block;
 	position: absolute;
  }
-<<<<<<< HEAD
-@media (max-width:800px) {
-	#firstSection, .blackDiv, #navMenu, #calculate #contactPanel, #windows, .check, .iconcheck, .check1, .bucks, .class, #respon, .one2, .one, .one1, .last, .center-text1, .filter234, .filter23, .lastimg, #cont, .filter1, #filterEnd , .plsu , .address1, .address{
-		width:100%;/*The width is 100%, when the viewport is 800px or smaller*/
-		height: auto;
-	}
-	#style1{
-		width:90%;
-		margin-left:20px;
-		text-align: center;
-		font-weight: 100;
-		margin-bottom:35px;
-	}
-	#style1 span{
-		margin-left:100;
-	}
-	.center1{
-		margin-top:150px;
-	}
-	.center{
-		height: 10px;
-		text-align: center;
-		font-weight: 100;
-	}
-	.text1{
-		height: 30vh;
-		width: 100%;
-		display: inline-block;
-		position: relative;
-	}
-	#text3{
-		width:90%;
-		margin-top: -26px;
-		opacity: 0.6;
-		text-align: left;
-		float: left;
-		margin-left: 31%;
-		font-size: 13px;
-	}
-}
-=======
->>>>>>> 8e1f86cf32e47d9343c957fc7c42a4bd0d3c1b95
 
 #ball{
 	width: 15px;

@@ -1,0 +1,74 @@
+@media (max-width:800px) {
+    #firstSection, .blackDiv, #navMenu, #calculate #contactPanel, #windows, .check, .iconcheck, .check1, .bucks, .class, #respon, .one2, .one, .one1, .last, .center-text1, .filter234, .filter23, .lastimg, #cont, .filter1, #filterEnd , .plsu , .address1, .address{
+        width:100%;/*The width is 100%, when the viewport is 800px or smaller*/
+        height: auto;
+    }
+    #style1{
+        width: 90%;
+        margin-left: 16px;
+        margin-top: -41px;
+    }
+    .style-text{
+        margin-bottom: -8px;
+        width: 94%;
+        margin-left: 14px;
+    }
+    .icons1{
+        margin-top: -8px;
+    }
+    .center1{
+        margin-top: 95px;
+        height: 7vh;
+    }
+    .text1 text2{
+        display: block;
+    }
+    #text3{
+        display: block;
+        width: 81%;
+        font-size: 13px;
+    }
+    #text4{
+        display: block;
+        width: 81%;
+        font-size: 13px;
+        margin-left: 35px;
+    }
+    .check{
+        width: 5%;
+        margin-left: 66px;
+        display: block;
+        margin-top: 8px;
+    }
+    .check2{
+        width: 500px;
+        margin-top: -15px;
+        height: 1px;
+    }
+    #checked1{
+        width: 300px;
+        margin-top: -15px;
+        height: 2px;
+    }
+    #checked123{
+        width: 300px;
+        margin-top -15px;
+        height: 2px;
+    }
+    .check1{
+        margin-top: 2px;
+    }
+    .iconcheck1{
+        display: block;
+        width: 100%;
+        height: 37px;
+    }
+    .center-text1{
+        margin-top: 37px;
+        margin-bottom: 5px;
+    }
+    #lineblue1{
+        margin-bottom: 10px;
+    }
+
+}
