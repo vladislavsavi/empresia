@@ -105,6 +105,8 @@ h1 , h2 , h3 {
 }
 
 #calculate{
+    min-width: 165px;
+    min-height: 38px;
 	margin-top: 3%;
     background-color: #fd0025;
     border: none;
@@ -778,7 +780,7 @@ span{
 	display: inline-block;
 	position: absolute;
  }
-<<<<<<< HEAD
+
 @media (max-width:800px) {
 	#firstSection, .blackDiv, #navMenu, #calculate #contactPanel, #windows, .check, .iconcheck, .check1, .bucks, .class, #respon, .one2, .one, .one1, .last, .center-text1, .filter234, .filter23, .lastimg, #cont, .filter1, #filterEnd , .plsu , .address1, .address{
 		width:100%;/*The width is 100%, when the viewport is 800px or smaller*/
@@ -818,12 +820,10 @@ span{
 		font-size: 13px;
 	}
 }
-=======
->>>>>>> 8e1f86cf32e47d9343c957fc7c42a4bd0d3c1b95
 
 #ball{
-	width: 15px;
-	height: 15px;
+	width: 16px;
+	height: 16px;
 	position: absolute;
 	top: -3px;
 	left: 4px;
@@ -831,6 +831,7 @@ span{
 	border-radius: 50%;
 	transition: 1s;
 }
+
 .before2:before {
 	position: absolute;
 	content: '';
