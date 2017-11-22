@@ -106,6 +106,8 @@ h1 , h2 , h3 {
 }
 
 #calculate{
+    min-width: 165px;
+    min-height: 38px;
 	margin-top: 3%;
     background-color: #fd0025;
     border: none;
@@ -711,9 +713,6 @@ span{
 }
 #fontid{
 	margin-right:10%;
-<<<<<<< HEAD
-	margin-left:18%;
-=======
 	margin-left:10%;
 }
 
@@ -754,12 +753,8 @@ span{
 #line{
   position: relative;
 	height: 10px;
-<<<<<<< HEAD
-  width:40px;
-=======
   margin-left: 60px;
   width:50px;
->>>>>>> 636f2015536539ac398576a1bc16c52c21c53f20
   height: 10px;
   background-color:rgba(255,0,0,0.6);
   border-radius: 30px;
@@ -779,9 +774,10 @@ span{
 	position: absolute;
  }
 
+
 #ball{
-	width: 15px;
-	height: 15px;
+	width: 16px;
+	height: 16px;
 	position: absolute;
 	top: -3px;
 	left: 4px;
@@ -789,6 +785,7 @@ span{
 	border-radius: 50%;
 	transition: 1s;
 }
+
 .before2:before {
 	position: absolute;
 	content: '';
