@@ -514,14 +514,14 @@ iframe{
 #sections{
 	display: inline-block;
 	color: #fff;
-	margin-left: 250px;
-	margin-top: 63px;
+	text-align: center;
+	width: 43%;
 	line-height: 1.5;
 
 }
 
 #sections ul{
-	text-align:left;
+	text-align:center;
 	list-style: none;
 	padding: 0;
 }
@@ -723,7 +723,6 @@ span{
 	height: 100px;
 	display: inline-block;
 	float: right;
-	margin-right: 130px;
 	margin-top: 65px;
 	position: relative;
 }
