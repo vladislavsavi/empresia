@@ -226,7 +226,7 @@ span{
 	text-align: center;
 }
 .icon{
-	height:30vh;
+
 	background-repeat: no-repeat;
 	width: 100%;
 	display:block;
@@ -248,18 +248,26 @@ span{
 	padding-bottom: 20px;
 	text-align: center;
 }
+
 .text1{
-	height: 30vh;
-	width: 100%;
-	display:inline-block;
+    max-width: 1200px;
+	width: 80%;
+	margin: 0 auto;
+	display: table;
 	position: relative;
 }
+.text1 p:first-child{
+	float: left;
+}
+.text1 p:nth-child(2){
+    float: right;
+}
+
 .text2{
 	opacity: 0.6;
 	display: inline-block;
-	width: 50%;
-	float:left;
-	text-align: center;
+    text-align: left;
+	width: 40%;
 }
 #text3{
 	opacity: 0.6;
@@ -288,7 +296,6 @@ span{
 	width: 17px;
 	float:left;
 	margin-left:10%;
-	margin-top: 15px;
 }
 .check2{
 	display: inline-block;
@@ -305,8 +312,11 @@ span{
 	display: inline-block;
     width: 380px;
 }
+.checkone{
+    margin-top: 11%;
+}
 .bucks{
-	height: 144vh;
+	height: 150vh;
 	width: 100%;
 	background-color:#3452ff;
 }
@@ -404,11 +414,11 @@ span{
 	background-color: black;
 }
 .lastfirst{
-	height: 100vh;
-	width: 100%;
-	display: inline-block;
-	margin-top: 100px;
-	position: relative;
+    height: 100vh;
+    width: 100%;
+    display: inline-block;
+    margin-top: 100px;
+    position: relative;
 }
 iframe{
 	z-index: 1;
@@ -464,22 +474,36 @@ iframe{
     position: relative;
 }
 .address{
-	display: inline-block;
-	margin-left: 38em;
-	position: relative;
-	padding-top: 10px;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
 }
 .address1{
 	display: inline-block;
 	float: left;
+    margin: 0 auto;
+    text-align: right;
+    width: 50%;
 }
 .adress2{
 	display: inline-block;
-	float: left;
-	margin-left: 10px;
+    text-align: left;
+    margin: 0 auto;
+
+}
+.adress212{
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
 }
 .red1{
 	color:red;
+    width: 50%;
+    text-align: left;
+    margin-left: 10px;
+    display: inline-block;
 }
 .white1{
 	color: white;
@@ -509,6 +533,14 @@ iframe{
 #ContLogo img{
 	display: block;
 	margin-bottom: 15px;
+}
+.address123{
+    display: block;
+    margin: 0 auto;
+    width: 100%
+}
+.plsu{
+    width: 93%;
 }
 
 #sections{
@@ -751,22 +783,20 @@ span{
 
 #line{
   position: relative;
-	height: 10px;
-  margin-left: 60px;
   width:50px;
   height: 10px;
   background-color:rgba(255,0,0,0.6);
   border-radius: 30px;
-  margin-left: 47px;
+    margin: 0 auto;
 }
 .filter234{
 	display: inline-block;
 }
 .filter23{
 	background-color: black;
-	width: 29.7%;
-	opacity: 0.6;
-	height: 39.4%;
+    width: 32.7%;
+    opacity: 0.6;
+    height: 43.6%;
 	margin-left: 8px;
 	margin-top: 5px;
 	display: inline-block;
@@ -807,8 +837,10 @@ iframe{
     position: absolute;
     top: 0EM;
     z-index: 2;
-    height: 100%;
     transition:0.5s;
+    height: 100vh;
+    transition: 0.5s;
+    width: 100%;
 }
 
 ul{

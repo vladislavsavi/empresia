@@ -1,206 +1,405 @@
-@media (max-width:800px) {
-    #firstSection, .blackDiv, #navMenu, #calculate #contactPanel, #windows, .check, .iconcheck, .check1, .bucks, .class, #respon, .one2, .one, .one1, .last, .center-text1, .filter234, .filter23, .lastimg, #cont, .filter1, #filterEnd , .plsu , .address1, .address{
-        width:100%;/*The width is 100%, when the viewport is 800px or smaller*/
-        height: auto;
-    }
-    #style1{
-        width: 90%;
-        margin-left: 16px;
-        margin-top: -41px;
-    }
-    .iconcheck1{
-
-    }
-    #iconcheckk{
-        padding-bottom: 10px;
-    }
-
-    .style-text{
-        margin-bottom: -8px;
-        width: 94%;
-        margin-left: 14px;
+/*  Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+    .text1 p{
+        width: 100% !important;
     }
     .icon{
-        margin-top: 36px;
+        margin-top: 35px;
     }
     .icons1{
-        margin-top: -8px;
-        padding-top: 12px;
-    }
-    .center1{
-        margin-top: 118px;
-        height: 7vh;
-    }
-    .text1 text2{
         display: block;
-    }
-    #class-text1{
-        margin-top: 14px;
-    }
-    #text3{
-        display: block;
-        width: 81%;
-        font-size: 13px;
-    }
-    #text4{
-        display: block;
-        width: 81%;
-        font-size: 13px;
-        margin-left: 35px;
     }
     .check{
-        width: 5%;
-        margin-left: 66px;
         display: block;
-        margin-top: 8px;
     }
     .check2{
-        width: 500px;
-        margin-top: -15px;
-        height: 1px;
+        text-align: left;
+        float: left;
+        margin: 0 auto;
+        margin-left: 10px;
     }
-    #checked1{
-        width: 300px;
-        margin-top: -15px;
-        height: 2px;
-    }
-    #checked123{
-        width: 300px;
-        margin-top -15px;
-        height: 2px;
-    }
-    .check1{
-        margin-top: 2px;
-    }
-    .iconcheck1{
-        display: block;
-        width: 100%;
-        height: 37px;
-    }
-    .center-text1{
-        margin-top: 28px;
-        margin-bottom: 5px;
-    }
-    .class{
-        top: 0em;
-    }
-    #lineblue1{
-        margin-bottom: 10px;
-    }
-    .text1{
-        height: 23vh;
-    }
-    #id1{
-        padding-top: 7px;
+    .checkone{
+        text-align: center;
+        margin-top: 2%;
     }
     .bucks{
-        height: 138px;
+        margin-top: 30px;
     }
-    .butt{
-        margin-left: 6%;
-        width: 170px;
-        height: 40px;
-        line-height: 42px;
+    .iconcheck1{
+        padding: 10px;
+    }
+    .iconcheck{
+        padding: 10px;
+    }
+    .iconcheckk{
+        margin: 0 auto;
     }
     .one{
-        width: 65%;
-        margin-top: 20px;
+        width: 80%;
+        height: auto;
+        margin-left: 3.7em;
+        margin-top: 30px;
     }
-    #respon{
-        width: 65%;
-        margin-top: 20px;
+    .class{
+        height: auto;
+        top: 2em;
     }
-    .one1{
-        height:100px;
+    .last{
+        height:auto;
+        margin-top: 30px;
     }
     .fontpast{
-        margin-left:15%;
-        margin-top: 33px;
+        top: -16px;
+        margin-left: 30%;
+    }
+    #fontid{
+        margin-left: 29%;
+    }
+    .butt{
+        margin-left: 41%;
+    }
+    .filter23{
+        width: 69.7%;
+        height: 34.4%;
     }
     .lastfirst{
-        margin-top: 20px;
-    }
-    #filterEnd{
-        height:123%;
-    }
-    .center-last{
-        padding-top: 7px;
-    }
-    .linewhite1{
-        margin-left: 44%;
+        margin-top: 50px;
     }
     .address{
-        margin-left: 5em;
+        width: 100%;
+        margin-left: 1em;
     }
-    .adress2{
-        margin-top: -41px
+    .address1{
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .adress2 {
+        width: 100%;
+        text-align: center;
+        margin-left: 1px;
+        display: inline-block;
     }
     .red1{
-        display: inline-block;
-        margin-left: 41px;
-    }
-    #ContLogo{
-        height: 99px;
-    }
-    .logofooter{
-        display: inline-block;
-    }
-    #idlogo{
-        width: 100%;
-        margin-left: 52px;
-        margin-top: 23px;
-    }
-    #ContLogo img{
-        display: inline-block;
-        margin-bottom: -7px;
-        margin-left: 48%;
-    }
-    #contactFoter{
-        height: 100px;
-        display: inline-block;
-        float: right;
-        margin-top: 2px;
-        width: 100%;
         text-align: center;
-        margin-right: 4px;
+    }
+    #line{
+        text-align: center;
+        margin: 0 auto;
     }
     #sections{
-        margin-top: 5px;
-        width: 100%;
-        text-align:center;
-        margin-left: 1px;
+        display: block;
     }
-    #sections ul{
+    #ContLogo{
+        margin: 0 auto;
         text-align: center;
-
+        width: 100%;
     }
-    .filter234 .filter23{
-        height: 35%;
-        width: 96%;
+    #ContLogo img{
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 10px;
     }
-    .page{
-        padding-left: 3px;
-        padding-right: 5px;
-
+    #sections{
+        width: 100%;
+        line-height: 27px;
     }
-    #lastpast1{
-        padding-left: 5%;
-        padding-right: 6%;
-    }
-    .before2:before{
-        left: 98px;
-    }
-    .before1:before{
-        left: 97px;
-    }
-    .before1{
-        margin-right: 29px;
-    }
-    .before2{
-        margin-right: 29px;
+    #contactFoter{
+        text-align: center;
+        width: 100%;
+        bottom: 50px;
     }
     #footer{
+        height:80vh;
+    }
+    .before1:before{
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+    .before2:before{
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .text1 p{
+        width: 100% !important;
+    }
+    .icon{
+        margin-top: 35px;
+    }
+    .icons1{
+        display: block;
+    }
+    .check{
+        display: block;
+    }
+    .check2{
+        text-align: left;
+        float: left;
+        margin: 0 auto;
+        margin-left: 10px;
+    }
+    .checkone{
+        text-align: center;
+        margin-top: 2%;
+    }
+    .bucks{
+        margin-top: 30px;
+    }
+    .iconcheck1{
+        padding: 10px;
+    }
+    .iconcheck{
+        padding: 10px;
+    }
+    .iconcheckk{
+        margin: 0 auto;
+    }
+    .one{
+        width: 80%;
+        height: auto;
+        margin-left: 3.7em;
+        margin-top: 30px;
+    }
+    .class{
+        height: auto;
+        top: 2em;
+    }
+    .last{
+        height:auto;
+        margin-top: 30px;
+    }
+    .fontpast{
+        top: -16px;
+        margin-left: 30%;
+    }
+    #fontid{
+        margin-left: 29%;
+    }
+    .butt{
+        margin-left: 41%;
+    }
+    .filter23{
+        width: 69.7%;
+        height: 34.4%;
+    }
+    .lastfirst{
+        margin-top: 50px;
+    }
+    .address{
+        width: 100%;
+        margin-left: 1em;
+    }
+    .address1{
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .adress2 {
+        width: 100%;
+        text-align: center;
+        margin-left: 1px;
+        display: inline-block;
+    }
+    .red1{
+        text-align: center;
+    }
+    #line{
+        text-align: center;
+        margin: 0 auto;
+    }
+    #sections{
+        display: block;
+    }
+    #ContLogo{
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+    }
+    #ContLogo img{
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    #sections{
+        width: 100%;
+        line-height: 27px;
+    }
+    #contactFoter{
+        text-align: center;
+        width: 100%;
+        bottom: 50px;
+    }
+    #footer{
+        height:80vh;
+    }
+    .before1:before{
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+    .before2:before{
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+
+}
+
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .text1 p{
+        width: 100% !important;
+    }
+    .icon{
+        margin-top: 35px;
+    }
+    .icons1{
+        display: inline-block;
+        padding: 0 35px;
+    }
+    .check{
+        display: block;
+    }
+    .center1{
+        height: auto;
+    }
+    .center-text1{
+        margin-top: 2em;
+    }
+    #windows {
+        height: 100%;
+    }
+    .check2{
+        text-align: left;
+        float: left;
+        margin: 0 auto;
+        margin-left: 10px;
+    }
+    .checkone{
+        text-align: center;
+        margin-top: 2%;
+    }
+    .bucks{
+        margin-top: 30px;
+    }
+    .iconcheck1{
+        padding: 10px;
+    }
+    .iconcheck{
+        padding: 10px;
+    }
+    .iconcheckk{
+        margin: 0 auto;
+    }
+    .one{
+        width: 83%;
+        height: auto;
+        margin-top: 30px;
+    }
+    .class{
+        height: 228vh;
+        top: 2em;
+    }
+    .last{
+        height:auto;
+        margin-top: 30px;
+    }
+    .fontpast{
+        top: -16px;
+        margin-left: 30%;
+    }
+    #fontid{
+        margin-left: 29%;
+    }
+    .butt{
+        margin-left: 41%;
+    }
+    .filter23{
+        width: 52.7%;
+        height: 26.4%;
+    }
+    .filter1{
+        height: 84%;
+    }
+    iframe{
+        height: 83vh;
+    }
+    .lastfirst{
+        margin-top: 50px;
         height: 80vh;
     }
+    .address{
+        width: 100%;
+        margin-left: 1em;
+    }
+    .address1{
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .adress2 {
+        width: 100%;
+        text-align: center;
+        margin-left: 1px;
+        display: inline-block;
+    }
+    .red1{
+        text-align: center;
+    }
+    #line{
+        text-align: center;
+        margin: 0 auto;
+    }
+    #sections{
+        display: block;
+    }
+    #ContLogo{
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+    }
+    #ContLogo img{
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    #sections{
+        width: 100%;
+        line-height: 27px;
+    }
+    #contactFoter{
+        text-align: center;
+        width: 100%;
+        bottom: 50px;
+    }
+    #footer{
+        height: 59vh;
+    }
+    .before1:before{
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+    .before2:before{
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
 
 }
