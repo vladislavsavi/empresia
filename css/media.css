@@ -1,5 +1,69 @@
 /*  Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575px) {
+
+#navMenu{
+    display: block;
+    background-color: #000000f0;
+}    
+
+#burger{
+    width: 46px;
+    float: right;
+    margin-right: 9%;
+    height: 30px;
+    margin-top: -2px;
+    border: none;
+    border-radius: 6px;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    outline: none;
+}
+
+.cutlet{
+  tranition: 1s;
+  width: 26px;
+  height:3px;
+  border:none;
+  background:#1748f7;;
+}
+
+.oneCutlet{
+    transform: rotate(-45deg) translate(-6px, 6px); 
+} 
+
+.threeCutlet{
+  transform: rotate(45deg) translate(-7px, -7px);
+}
+
+.linksNav{
+    transition: 1s;
+    position: absolute;
+    top: 79%;
+    left: 0px;
+    width: 100%;
+    height: 0px;
+    list-style: none;
+    padding: 0;
+    background: #000000f0;
+    overflow: hidden;
+}
+
+.item-menu{
+    display: block;
+}
+
+.hideCutlet{
+  opacity: 0;
+}
+
+.lines{
+  transition: 300ms;
+  margin-top: 0px;
+}
+
     .text1 p{
         width: 100% !important;
     }

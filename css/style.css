@@ -47,7 +47,7 @@ h1 , h2 , h3 {
 }
 
 .Fix{
-	background-color: rgba(32,32,32,0.8);
+	background-color: #000000f0;
 }
 
 #navMenu img{
@@ -59,9 +59,10 @@ h1 , h2 , h3 {
 	bottom: 11px;
 }
 
-#navMenu ul{
+.links{
     width: 32%;
     padding: 0;
+   	min-width: 444px;
 }
 
 .item-menu{
@@ -76,6 +77,9 @@ h1 , h2 , h3 {
     font-size: 13px;
 }
 
+#burger{
+	display: none;
+}
 
 .blackDiv{
 	position: absolute;
@@ -88,6 +92,8 @@ h1 , h2 , h3 {
 	opacity: .5;
 	z-index: 1;
 }
+
+
 
 #slogonDiv{
 	width: 80%;
