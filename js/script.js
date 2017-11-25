@@ -111,3 +111,20 @@ line.onclick = function (){
   }
 }
 }
+
+var burger = $('#burger');
+
+$('#burger').on('click', function() {
+   if(document.querySelector('.hideCutlet')){
+     $('#one').removeClass('oneCutlet');
+     $('#two').removeClass('hideCutlet');
+     $('#three').removeClass('threeCutlet'); 
+     $('#lis').animate({height: '0px'},300);
+   } else{
+     $('#one').addClass('oneCutlet');
+     $('#two').addClass('hideCutlet');
+     $('#three').addClass('threeCutlet');
+     $('#lis').animate({height: '100px'},300)
+   }
+   
+});

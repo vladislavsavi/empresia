@@ -1,5 +1,94 @@
 /*  Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575px) {
+
+#navMenu{
+    display: block;
+    background-color: #000000f0;
+    padding: 0;
+    height: 16%;
+    min-height: 60px;
+    max-height: 78px;
+}    
+
+#navMenu img {
+    width: 47px;
+}
+#burger{
+    width: 46px;
+    margin-right: 9%;
+    height: 30px;
+    margin-top: 14px;
+    border: none;
+    border-radius: 6px;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    outline: none;
+    position: absolute;
+    left: 87%;
+    bottom: 28%;
+}
+
+.item-contact {
+    font-size: 0.9em;
+}
+
+.cutlet{
+  tranition: 1s;
+  width: 26px;
+  height:3px;
+  border:none;
+  background:#1748f7;;
+}
+
+.oneCutlet{
+    transform: rotate(-45deg) translate(-6px, 6px); 
+} 
+
+.threeCutlet{
+  transform: rotate(45deg) translate(-7px, -7px);
+}
+
+#wraper{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.links{
+    
+    position: relative;
+    display: block;
+    top: 0;
+    margin: 0;
+    left: 0px;
+    width: 100%;
+    height: 0px;
+    list-style: none;
+    padding: 0;
+    background: #000000f0;
+    overflow: hidden;
+}
+
+.item-menu{
+    display: block;
+}
+
+.hideCutlet{
+  opacity: 0;
+}
+
+.lines{
+  transition: 300ms;
+  margin-top: 0px;
+}
+
+
+#slogonDiv {
+    top: 9%; 
+}
     .text1 p{
         width: 100% !important;
     }
@@ -59,6 +148,12 @@
     #fontid{
         margin-left: 29%;
     }
+    .filter1{
+        height: 137%;
+    }
+    iframe{
+        height: 135vh;
+    }
     .butt{
         margin-left: 41%;
     }
@@ -68,6 +163,7 @@
     }
     .lastfirst{
         margin-top: 50px;
+        height: 135vh;
     }
     .address{
         width: 100%;
@@ -114,7 +210,7 @@
         bottom: 50px;
     }
     #footer{
-        height:80vh;
+        height:100vh;
     }
     .before1:before{
         position: relative;
@@ -128,7 +224,7 @@
     }
 }
 
-@media (min-width: 575px) {
+ /*
     .text1 p{
         width: 100% !important;
     }
@@ -267,6 +363,10 @@
     .check{
         display: block;
     }
+
+#slogonDiv {
+    top: 9%; 
+}
     .check2{
         text-align: left;
         float: left;
