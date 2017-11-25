@@ -13,7 +13,6 @@
 #navMenu img {
     width: 47px;
 }
-
 #burger{
     width: 46px;
     margin-right: 9%;
@@ -32,6 +31,9 @@
     bottom: 28%;
 }
 
+.item-contact {
+    font-size: 0.9em;
+}
 
 .cutlet{
   tranition: 1s;
@@ -81,6 +83,11 @@
 .lines{
   transition: 300ms;
   margin-top: 0px;
+}
+
+
+#slogonDiv {
+    top: 9%; 
 }
 
     .text1 p{
@@ -221,6 +228,10 @@
     .check{
         display: block;
     }
+    
+#slogonDiv {
+    top: 9%; 
+}
     .check2{
         text-align: left;
         float: left;
