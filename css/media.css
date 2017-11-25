@@ -58,7 +58,7 @@
 }
 
 .links{
-    transition: 1s;
+    
     position: relative;
     display: block;
     top: 0;
@@ -228,7 +228,7 @@
     .check{
         display: block;
     }
-    
+
 #slogonDiv {
     top: 9%; 
 }
